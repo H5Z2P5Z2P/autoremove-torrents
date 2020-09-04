@@ -1,0 +1,10 @@
+my_task:
+  client: qbittorrent
+  host: http://127.0.0.1
+  username: admin
+  password: adminadmin
+  strategies:
+    my_strategy:
+      categories: IPT
+      remove: seeding_time > 1209600 or ratio > 1
+  delete_data: true
